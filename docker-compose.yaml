@@ -1,0 +1,13 @@
+version: '2'
+services:
+  mongodb:
+    image: mongo:latest
+    ports:
+    - 27017:27017
+    network_mode: bridge
+  rabbitmq:
+    image: rabbitmq:3.11.3-management
+    ports:
+    - 15672:15672
+    - 5672:5672
+    network_mode: bridge

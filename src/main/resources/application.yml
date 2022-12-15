@@ -1,0 +1,7 @@
+logging:
+  level:
+    br.com.desafiosicredi: DEBUG
+
+queue:
+  name:
+    consolidacao: teste

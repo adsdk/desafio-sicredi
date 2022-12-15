@@ -1,0 +1,9 @@
+{
+  "properties": [
+    {
+      "name": "queue.name.consolidacao",
+      "type": "java.lang.String",
+      "description": "Nome da fila para consolidacao."
+    }
+  ]
+}
